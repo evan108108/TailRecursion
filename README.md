@@ -1,7 +1,7 @@
 TailRecursion
 =============
 
-Tail Recursion class for php
+Tail Recursion class for php 5.4 or greater
 
 
 ```php
