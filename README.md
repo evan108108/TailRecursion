@@ -7,7 +7,7 @@ Inspired by [beberlei](https://gist.github.com/beberlei/4145442)
 
 ## Install
 
-The recommended way to install react/scalar is [through composer](http://getcomposer.org).
+The recommended way to install react/tailrecursion is [through composer](http://getcomposer.org).
 
 ```JSON
 {
