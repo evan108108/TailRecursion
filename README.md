@@ -20,7 +20,9 @@ The recommended way to install react/scalar is [through composer](http://getcomp
 ## Examples
 
 ```php
-echo TailRecursion::init(function($n, $acc = 1) {
+use \Starship\TailRecursion\TailRecursion as tr;
+
+echo tr::init(function($n, $acc = 1) {
     if ($n == 1) {
         return $acc;
     }
@@ -29,7 +31,8 @@ echo TailRecursion::init(function($n, $acc = 1) {
 ```
 
 ```php
-		
+use \Starship\TailRecursion\TailRecursion as tr;
+
 $flatList = tr::init(function($list, $acc=[]) {
 	if(count($list) < 1) {
 		return $acc;
