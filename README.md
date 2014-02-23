@@ -45,6 +45,6 @@ $flatList = tr::init(function($list, $acc=[]) {
 	return $this->tail($list, $acc);
 });
 
-//Will out put 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+//Will output 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 print_r($flatList->run([1,[2,3],[4,[5]],[6], [7,[8,9],10]], [0])); 
 ```
