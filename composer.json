@@ -1,0 +1,23 @@
+{
+		"name": "starship/tailrecursion",
+		"type": "library",
+		"description": "Tail Recursion Class",
+		"keywords": ["tail recursion"],
+		"homepage": "https://github.com/evan108108/TailRecursion",
+		"license": "MIT",
+		"authors": [
+				{
+						"name": "Evan Frohlich",
+						"email": "evan108108@gmail.com"
+				},
+				{
+						"name": "Benjamin Eberlei"
+				}
+		],
+		"require": {
+				"php": ">=5.4.0"
+		},
+		"autoload": {
+				"psr-0": { "Starship\\TailRecursion": "src" }
+		}
+}
