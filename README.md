@@ -40,7 +40,6 @@ $flatList = tr::init(function($list, $acc=[]) {
 	if(is_array($result = array_shift($list))) {	
 		 return $this->tail(array_merge($result, $list), $acc);	
 	}
-	
 	$acc[] = $result;		
 	return $this->tail($list, $acc);
 });
